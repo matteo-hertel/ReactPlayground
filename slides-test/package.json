@@ -14,8 +14,10 @@
   "license": "MIT",
   "devDependencies": {
     "@rebass/grid": "^6.0.0-4",
+    "bpk-tokens": "^27.2.0",
     "mdx-deck": "^1.6.7",
-    "prettier": "^1.15.2"
+    "prettier": "^1.15.2",
+    "react-icons": "^3.2.2"
   },
   "name": "slides-test"
 }

@@ -4,10 +4,7 @@ import {Box, Flex} from '@rebass/grid/';
 const Test = ({children}) => (
   <Flex
     flexDirection="column"
-    className="Papoi"
     style={{
-      width: '100vw',
-      height: '100vw',
       background:
         'linear-gradient(135deg,rgb(0, 178, 214) 0%, rgb(2, 221, 216) 100%)',
     }}>
