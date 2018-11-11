@@ -14,14 +14,45 @@ export { default as theme } from './theme'
 # 👋 Henlo
 
 ---
+import {codeTheme} from './baseStyle';
+import {CodeSurfer} from 'mdx-deck-code-surfer';
 
-
-##  @MHDev91 
-
- To create your presentation
+<CodeSurfer
+title='A bunch of code'
+notes='Some notes'
+lang='javascript'
+theme={codeTheme}
+showNumbers
+code={require('raw-loader!./snippets/test.js')}
+steps={[
+{notes: "Start with this note"},
+{lines: [12], notes: 'Pls Don\'t'},
+{lines: [18], notes: 'Sthaaaaaaap'}
+]}
+/>
 
 ```notes
-Twitter love
+Some Notes
+import nightOwl from "prism-react-renderer/themes/nightOwl"
+
+import {CodeSurfer} from 'mdx-deck-code-surfer';
+
+<CodeSurfer
+title='LOOOOL'
+theme={nightOwl}
+code={require('raw-loader!./snippets/test.js')}
+/>
+
+import nightOwl from "prism-react-renderer/themes/nightOwl"
+
+import {CodeSurfer} from 'mdx-deck-code-surfer';
+
+<CodeSurfer
+title='LOOOOL'
+theme={nightOwl}
+code={require('raw-loader!./snippets/test.js')}
+/>
+
 ```
 
 ---

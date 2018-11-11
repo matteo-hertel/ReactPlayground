@@ -18,6 +18,9 @@ import {
   tabletMediaQuery,
 } from './constants';
 
+import nightOwl from 'prism-react-renderer/themes/nightOwl';
+nightOwl.plain.backgroundColor = 'transparent';
+export const codeTheme = nightOwl;
 export default {
   font: fontFamilyBase,
   monospace: codeBlockFont,

@@ -15,9 +15,15 @@
   "devDependencies": {
     "@rebass/grid": "^6.0.0-4",
     "bpk-tokens": "^27.2.0",
+    "ignore-loader": "^0.1.2",
     "mdx-deck": "^1.6.7",
+    "mdx-deck-code-surfer": "^0.5.3",
     "prettier": "^1.15.2",
+    "raw-loader": "^0.5.1",
     "react-icons": "^3.2.2"
   },
-  "name": "slides-test"
+  "name": "slides-test",
+  "babel": {
+    "ignore": "snippets"
+  }
 }
